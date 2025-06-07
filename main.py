@@ -4,7 +4,7 @@
 def sum(a, b):
     return (a + b)
 
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
+a = int(input('Введите 1-е число: '))
+b = int(input('Введите 2-е число: '))
 
-print(f'Sum of {a} and {b} is {sum(a, b)}')
+print(f'Сумма {a} и {b} равна {sum(a, b)}')
